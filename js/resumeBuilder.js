@@ -25,7 +25,7 @@ var bio = {
 		"bioPic" : "images/retDGR_1818_2.jpg",
 
 		"display": function(){
-		var  formattedName = HTMLheaderName.replace("%data%", bio.name),
+		var formattedName = HTMLheaderName.replace("%data%", bio.name),
 	    formattedheaderRole = HTMLheaderRole.replace("%data%", bio.role),
 		formattedmobile = HTMLmobile.replace("%data%", bio.contacts.mobile),
 		formattedemail = HTMLemail.replace("%data%", bio.contacts.email),
@@ -195,7 +195,7 @@ var education = {
             $(".education-entry:last").append(HTMLonlineTitle.replace("%data%", education.onlineCourses[i].title));
             $(".education-entry:last").append(HTMLonlineSchool.replace("%data%", education.onlineCourses[i].school));
             $(".education-entry:last").append(HTMLonlineDates.replace("%data%", education.onlineCourses[i].dates));
-            $(".education-entry:last").append(HTMLonlineurl.replace("%data%", education.onlineCourses[i].url));
+            $(".education-entry:last").append(HTMLonlineURL.replace("%data%", education.onlineCourses[i].url));
          }
       }
    }
@@ -203,6 +203,21 @@ var education = {
 
 
 education.display();
+
+function inName(name) {
+	name[1] = name[1].toUpperCase();
+	name[0] = name[0].slice(0,1).toUpperCase()+
+		name[0].slice[1].toLowerCase();
+	var intName = (name[0] +" "+ name[1]);
+
+	return intName;
+}
+
+ $("#main").append(internationalizeButton);
+
+
+
+ $("#mapDiv").append(googleMap);
 
 
 
