@@ -9,19 +9,27 @@ h3,
 h4,
 h5,
 h6 {
-  padding:0;
-  margin:0;
-  font-family: "Roboto", sans-serif;
+  padding: 0;
+  margin: auto;
+  font-family: "Raleway", sans-serif;
 }
 
 .clear-fix {
   overflow: auto;
 }
 
+#project-entry {
+  color: #000;
+}
+
+.projects{
+  color: #000;
+}
+
 .education-entry,
 .work-entry,
-.project-entry {
-  padding: 0 5%;
+.project-entry,{
+  padding: 0;
 }
 
 h1 {
@@ -34,7 +42,7 @@ h1 {
 h2 {
   font-weight: bold;
   font-size: 24px;
-  color: #000;
+  color: #666633;
   line-height: 29px;
   padding: 10px;
 }
@@ -104,11 +112,15 @@ a {
   display: none;
 }
 
-.orange {
+.container{
   background-color: #666633;
 }
 
-.orange-text {
+.black {
+  background-color: #666633;
+}
+
+.black-text {
   color: #000;
 }
 
@@ -118,18 +130,19 @@ a {
 }
 
 .gray {
-  background-color: #666633;
+  background-color: #52250B;
+  color: #000;
   padding-bottom: 10px;
   clear:both;
 }
 
 .dark-gray {
-  background-color: #4c1a4c;
+  background-color: #666633;
 }
 
 /* TODO: Replace with image later */
 #header {
-  background-color: #4c1a4c;
+  background-color: #52250B;
   color: #000;
 }
 
@@ -168,6 +181,11 @@ span {
 #lets-connect {
   text-align: center;
   color: #000;
+}
+
+div#projects {
+  display: block;
+  width: 100%;
 }
 
 /* Media queries to handle various device widths */
@@ -214,3 +232,7 @@ span {
     display: block;
   }
 }
+
+
+
+
