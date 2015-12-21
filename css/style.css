@@ -18,9 +18,11 @@ h6 {
   overflow: auto;
 }
 
-#project-entry {
-  color: #000;
+.project-entry1 {
+  width: 33.33%;
+  float: right;
 }
+
 
 .projects{
   color: #000;
@@ -83,7 +85,7 @@ h5 {
   font-size: 14px;
   color: #000;
   line-height: 16px;
-  float: right;
+  float: center;
 
 }
 
@@ -112,8 +114,9 @@ a {
   display: none;
 }
 
-.container{
-  background-color: #666633;
+.container-fluid {
+  padding: auto;
+  margin: auto;
 }
 
 .black {
@@ -133,17 +136,22 @@ a {
   background-color: #52250B;
   color: #000;
   padding-bottom: 10px;
-  clear:both;
+  border-style: solid;
+  border-color: #666633;
 }
 
 .dark-gray {
-  background-color: #666633;
+  background-color: #52250B;
 }
 
 /* TODO: Replace with image later */
 #header {
   background-color: #52250B;
   color: #000;
+  border-style: solid;
+  border-color: #666633;
+  border-width: 20px;
+
 }
 
 .flex-box {
@@ -181,11 +189,40 @@ span {
 #lets-connect {
   text-align: center;
   color: #000;
+  border-style: solid;
+  border-color: #666633;
+  border-width: 20px;
 }
 
-div#projects {
+#projects {
+  color: #000;
+  border-style: solid;
+  border-color: #666633;
+  border-width: 20px;
+  padding: 10px;
+  margin: 0;
   display: block;
   width: 100%;
+}
+
+#education {
+  border-style: solid;
+  border-color: #666633;
+  border-width: 20px;
+
+}
+
+#workExperience {
+  border-style: solid;
+  border-color: #666633;
+  border-width: 10px;
+}
+
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: auto;
 }
 
 /* Media queries to handle various device widths */

@@ -23,8 +23,9 @@ need to load. You'll see a lot of <link>s to CSS files for styles and
 
   <!-- Load the page styles. -->
   <link href="css/style.css" rel="stylesheet">
-  <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
   <!--
   jQuery is a common JavaScript library for reading and making changes to the
   Document Object Model (DOM). The DOM is a tree that contains information
@@ -53,7 +54,7 @@ need to load. You'll see a lot of <link>s to CSS files for styles and
 </head>
 <body>
 
-  <div id="main">
+  <div id="main" class="container fluid">
       <!-- You'll be deleting this line in the course -->
 
     <!--
@@ -68,28 +69,15 @@ need to load. You'll see a lot of <link>s to CSS files for styles and
     <div style="clear: both;"></div>
     <div id="workExperience" class="gray">
       <h2>Work Experience</h2>
-    </div>/
+    </div>
     <section>
-          <div class="container fluid">
-              <div id="projects">
+              <div id="projects" class="col-md-4">
                <h2>Projects</h2>
-             </div>
-               <div class="row">
-                 <div class="col-md-4">
-                      <div id="project-entry1">
-                        <div class="col-md-4">
-                      <div id="project-entry2">
-                        <div class="col-md-4">
-                      <div id="project-entry3">
-                        <div class="col-md-4">
-                  </div>
+                    <div class="project-entry col-md-4"></div>
+                    <div class="project-entry col-md-4"></div>
+                    <div class="project-entry col-md-4"></div>
               </div>
           </div>
-       </div>
-     </div>
-   </div>
- </div>
-</div>
   </section>
     <div id="education" class="gray">
       <h2>Education</h2>
@@ -157,6 +145,7 @@ need to load. You'll see a lot of <link>s to CSS files for styles and
     if(document.getElementById('map') > 0) {
       document.getElementById('mapDiv').style.display = "none";
     }
+
   </script>
 </body>
 </html>

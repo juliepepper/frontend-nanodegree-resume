@@ -109,19 +109,19 @@ var projects = {
 		  "title"   : "P1PortfolioPage",
 		  "dates"   : "November 23",
 		  "description"   : "A responsive portfolio page with images utilizing a bootstrap framework",
-		  "images"   : "images/Ward_in_the_Hospital_in_Arles.jpg"
+		  "images"   : "images/ward-in-hospital-in-Arles.jpg"
 		  },
 		  {
 		  "title"   : "Last Call",
 		  "dates"      : "July 2013",
 		  "description"   : "A novel about a bartender drowning in the gritty life of a bar while her best friend is diagnosed with a possibly fatal illness",
-		  "images"      : "images/last-call.jpeg"
+		  "images"      : "images/last-call-book cover.jpeg"
 		  },
 		  {
 		  "title"   : "Yellow Jackets Feasting",
 		  "dates"      : "March 2015",
 		  "description"   : "These yellow jackets illustrate both the satiating, sweetness of nourishment and the sometimes painful sting that occurs when we can't fully protect our children. Each of these is reflected in my short story, Yellow Jackets.",
-		  "images"      : "images/bee.jpg"
+		  "images"      : "images/yellowjackets.jpeg"
 	  	 }
 	  ],
 	  "display": function(){
