@@ -9,266 +9,272 @@ h3,
 h4,
 h5,
 h6 {
-  padding: 0;
-  margin: auto;
-  font-family: "Raleway", sans-serif;
+    padding: 0;
+    margin: auto;
+    font-family: "Raleway", sans-serif;
+}
+
+body {
+    background-color: #52250B;
+    padding: 20px;
 }
 
 .clear-fix {
-  overflow: auto;
+    overflow: auto;
 }
 
-.project-entry1 {
-  width: 33.33%;
-  float: right;
-}
-
-
-.projects{
-  color: #000;
+#projects {
+    width: 33.33%;
+    margin: auto;
+    float: right;
 }
 
 .education-entry,
 .work-entry,
-.project-entry,{
-  padding: 0;
+.project-entry {
+    padding: 0;
 }
 
 h1 {
-  font-size: 40px;
-  color: #000;
-  line-height: 48px;
-  display: inline;
+    font-size: 40px;
+    color: #D1BB94;
+    line-height: 48px;
+    display: inline;
 }
 
 h2 {
-  font-weight: bold;
-  font-size: 24px;
-  color: #666633;
-  line-height: 29px;
-  padding: 10px;
+    font-weight: bold;
+    font-size: 24px;
+    color: #666633;
+    line-height: 29px;
+    padding: 10px;
 }
 
 h3 {
-  font-style: italic;
-  font-size: 20px;
-  color: #000;
-  line-height: 22px;
+    font-style: italic;
+    font-size: 20px;
+    color: #666633;
+    line-height: 22px;
 }
 
 h4 {
-  font-weight: bold;
-  font-size: 14px;
-  color: #000;
-  line-height: 17px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #D1BB94;
+    line-height: 17px;
 }
 
 h2,
 h3,
 h4,
 h5 {
-  padding:10px 5%;
-
+    padding: 10px 5%;
 }
 
+em {
+    color: #D1BB94;
+}
 
 .date-text {
-  font-style: italic;
-  font-size: 14px;
-  color: #000;
-  line-height: 16px;
-  float: left;
+    font-style: italic;
+    font-size: 14px;
+    color: #D1BB94;
+    line-height: 16px;
+    float: left;
 }
 
 .location-text {
-  font-style: italic;
-  font-size: 14px;
-  color: #000;
-  line-height: 16px;
-  float: center;
-
+    font-style: italic;
+    font-size: 14px;
+    color: #D1BB94;
+    line-height: 16px;
+    float: right;
 }
 
 p {
-  font-size: 14px;
-  color: #000;
-  line-height: 21px;
+    color: #D1BB94;
+    font-size: 14px;
+    line-height: 21px;
 }
 
 a {
-  color: #1199c3;
-  text-decoration: none;
-  margin-top: 10px;
-  display: block;
+    color: #1199c3;
+    text-decoration: none;
+    margin-top: 10px;
+    display: block;
 }
 
 .welcome-message {
-  font-style: italic;
-  font-size: 18px;
-  color: #f3f3f3;
-  line-height: 28px;
+    font-style: italic;
+    font-size: 18px;
+    color: #f3f3f3;
+    line-height: 28px;
 }
 
 #skills-h3 {
-  color: #000;
-  display: none;
+    color: #D1BB94;
+    display: none;
 }
 
 .container-fluid {
-  padding: auto;
-  margin: auto;
+    margin: auto;
 }
 
 .black {
-  background-color: #666633;
+    background-color: #666633;
 }
 
 .black-text {
-  color: #000;
+    color: #D1BB94;
 }
 
 .white-text {
-  font-weight: bold;
-  color: #fff;
+    font-weight: bold;
+    color: #fff;
 }
 
 .gray {
-  background-color: #52250B;
-  color: #000;
-  padding-bottom: 10px;
-  border-style: solid;
-  border-color: #666633;
+    background-color: #52250B;
+    color: #E6B395;
+    padding-bottom: 10px;
+    border-style: solid;
+    border-color: #666633;
 }
 
 .dark-gray {
-  background-color: #52250B;
+    background-color: #52250B;
 }
 
 /* TODO: Replace with image later */
 #header {
-  background-color: #52250B;
-  color: #000;
-  border-style: solid;
-  border-color: #666633;
-  border-width: 20px;
-
+    background-color: #52250B;
+    color: #D1BB94;
+    border-style: solid;
+    border-color: #666633;
+    border-width: 20px;
 }
 
 .flex-box {
-  display: -webkit-flex;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  padding: 10px;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
 }
 
 .center-content {
-  padding: 2.5% 5%;
+    padding: 2.5% 5%;
 }
 
 ul {
-  list-style-type: none;
+    list-style-type: none;
 }
 
 .biopic {
-  float: left;
-  padding: 10px;
-  width: 200px;
-  display: none;
+    float: left;
+    padding: 10px;
+    width: 200px;
+    display: none;
 }
 
 img {
-  padding: 10px;
+    padding: 10px;
 }
 
 span {
-  padding: 5px;
+    padding: 5px;
 }
 
 #lets-connect {
-  text-align: center;
-  color: #000;
-  border-style: solid;
-  border-color: #666633;
-  border-width: 20px;
+    text-align: center;
+    color: #D1BB94;
+    border-style: solid;
+    border-color: #666633;
+    border-width: 20px;
 }
 
 #projects {
-  color: #000;
-  border-style: solid;
-  border-color: #666633;
-  border-width: 20px;
-  padding: 10px;
-  margin: 0;
-  display: block;
-  width: 100%;
+    background-color: #52250B;
+    color: #D1BB94;
+    border-style: solid;
+    border-color: #666633;
+    border-width: 20px;
+    padding: 10px;
+    margin: 0;
+    display: block;
+    width: 100%;
 }
 
 #education {
-  border-style: solid;
-  border-color: #666633;
-  border-width: 20px;
-
+    border-style: solid;
+    border-color: #666633;
+    border-width: 20px;
+    padding: 10px;
 }
 
 #workExperience {
-  border-style: solid;
-  border-color: #666633;
-  border-width: 10px;
+    border-style: solid;
+    border-color: #666633;
+    border-width: 20px;
+    padding: 20px;
 }
 
 .img-responsive {
-  display: block;
-  max-width: 100%;
-  height: auto;
-  margin: auto;
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: auto;
 }
 
 /* Media queries to handle various device widths */
 
 @media only screen and (max-width: 1024px) {
-  #lets-connect {
-    margin-top: 5%;
-  }
+    #lets-connect {
+        margin-top: 5%;
+    }
 }
 
 @media only screen and (max-width:900px) {
-  .biopic {
-    width: 175px;
-  }
+    .biopic {
+        width: 175px;
+    }
 }
 
 @media only screen and (max-width: 750px) {
-  #lets-connect {
-    margin-top: 10%;
-  }
-  .biopic {
-    width: 150px;
-  }
-  .welcome-message {
-    display: none;
-  }
+    #lets-connect {
+        margin-top: 10%;
+    }
+
+    .biopic {
+        width: 150px;
+    }
+
+    .welcome-message {
+        display: none;
+    }
 }
 
 #map {
-  display: block;
-  height: 100%;
-  margin: 0 5%;
+    display: block;
+    height: 100%;
+    margin: 0 5%;
 }
 
 #mapDiv {
-  height: 400px;
-  width: 100%;
-  padding-bottom: 5%;
+    height: 400px;
+    width: 100%;
+    padding-bottom: 5%;
 }
 
 @media only screen and (min-width: 750px) {
-  #skills-h3,
+    #skills-h3,
   .biopic {
-    display: block;
-  }
+        display: block;
+    }
 }
+
+
 
 
 
